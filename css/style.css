@@ -1,0 +1,226 @@
+* { padding: 0%; 
+    margin: 0%; 
+}
+header {
+    text-align: center;
+    padding: 120px 0px 30px;
+    background: rgb(249, 249, 249);
+}
+header h1 { font-size: 28px; 
+    font-weight: 400; 
+    font-family: Poppins, Arial, sans-serif; 
+}
+.details {
+    background: rgb(250, 250, 250);
+    padding: 35px 0px 80px;
+}
+.icon {
+    display: flex;
+    width: 57%;
+    margin: auto;
+    justify-content: space-between;
+    text-align: center;
+}
+.location {
+    width: 21%;
+}
+
+.location i {
+    width: 60px;
+    height: 60px;
+    background: rgb(70, 181, 209);
+    font-size: 18px;
+    color: white;
+    line-height: 60px;
+    border-radius: 30px;
+    margin-bottom: 25px;
+}
+.location p {
+
+color: #46b5d1;
+
+font-size: 16px;
+
+line-height: 1.8;
+
+font-family: "Poppins", Arial, sans-serif;
+}
+.location p span{
+
+font-weight: 500;
+
+color: #000;
+}
+.Contact_us{
+
+background: #fafafa;
+
+
+padding: 0 0 100px;
+}
+.contact_main{
+
+display: flex;
+
+width: 58%;
+
+margin: auto;
+
+justify-content: space-between;
+
+background: white;
+
+}
+.Contact{
+    padding: 55px 0 10px 50px;
+    width: 52%;
+    background: white;
+}
+.Contact h1{
+
+    font-size: 28px;
+
+    font-weight: 400;
+
+    font-family: "Poppins", Arial, sans-serif;
+
+    margin-bottom: 24px;
+
+    line-height: 1.5;
+}   
+
+.name{
+
+    display: flex;
+
+    justify-content: space-between;
+
+    width:100% ;
+}
+
+.content h3{
+    text-transform: uppercase;
+    
+    font-size: 12px;
+        
+    font-weight: 600;
+        
+    font-family: "Poppins", Arial, sans-serif;
+        
+    margin-bottom: 10px;
+
+   
+}
+
+input{
+    flex: 1;
+}
+
+.content input{
+    border: none;
+    
+    border-bottom: 1px solid #e7e7e7;
+    
+    font-size: 16px;
+    
+    margin-bottom: 15px;
+    
+    height: 40px;
+    
+    outline: none;
+
+    border-radius: 2px;
+
+    position: relative;
+}
+.full_name{
+    width: 50%;
+    margin-right: 30px;
+}    
+.full_name h3{
+
+}
+.full_name input{
+    
+width: 100%;
+}
+
+.email{
+    width: 50%;
+ }
+    
+.email input{
+
+width: 100%;
+}
+
+.subject{
+
+}
+
+.subject input{
+    
+width: 100%;
+}
+.subject h3{
+    
+}
+.message textarea{
+
+width: 100%;
+
+border: none;
+
+border-bottom: 1px solid #e7e7e7;
+
+font-size: 16px;
+
+margin-bottom: 15px;
+
+font-family: "Poppins", Arial, sans-serif;
+
+height: 110px;
+
+outline: none;
+}
+
+.send{
+
+}
+
+.send input{
+
+border: none;
+
+border: 1px solid #46b5d1;
+
+background: #46b5d1;
+
+color: white;
+
+padding: 15px  20px;
+
+border-radius: 5px;
+
+font-size: 14px;
+
+cursor: pointer;
+
+
+}
+
+.image{
+    width: 40%;
+}
+.image img{
+    
+width: 100%;
+    
+display: block;
+}
+
+
+.send input:hover{
+    background-color: #2d9bb7;
+    transition: .3s all ease-in-out;
+}
